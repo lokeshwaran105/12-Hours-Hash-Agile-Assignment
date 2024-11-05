@@ -8,8 +8,8 @@ import ssl
 # code to initialize and connect the elasticsearch server
 context = ssl.create_default_context(cafile="D:\elasticsearch-8.15.3\config\certs\http_ca.crt")
 es = Elasticsearch(
-    ["https://localhost:9200"],
-    basic_auth=("elastic", "PRZ86TrfKjH4kee7LwwV"),
+    ["https://localhost:8989"],
+    basic_auth=("elastic", "Itni1QMbhnH7pPk75h9y"),
     ssl_context=context
 )
 
